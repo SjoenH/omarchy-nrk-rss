@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "no.koka.nrk-rss",
+  "name": "NRK RSS Feed",
+  "version": "1.0.0",
+  "author": "koka.no",
+  "license": "MIT",
+  "description": "Display latest news from NRK's top stories RSS feed",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "NRK News",
+    "category": "Widgets",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
